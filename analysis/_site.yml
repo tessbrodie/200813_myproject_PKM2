@@ -1,7 +1,7 @@
-name: "200813_myproject_PKM2"
+name: 200813_myproject_PKM2
 output_dir: ../docs
 navbar:
-  title: "200813_myproject_PKM2"
+  title: 200813_myproject_PKM2
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/tessbrodie/200813_myproject_PKM2
 output:
   workflowr::wflow_html:
     toc: yes
