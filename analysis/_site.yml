@@ -1,14 +1,22 @@
 name: 200813_myproject_PKM2
 output_dir: ../docs
 navbar:
-  title: 200813_myproject_PKM2
+  title: PKM2
   left:
-  - text: Home
+  - text: Contents
     href: index.html
-  - text: About
-    href: about.html
-  - text: License
-    href: license.html
+  - text: Prep data
+    href: 0-preparation.html
+  - text: Cluster
+    href: 1-clustering.html
+  - text: tSNE
+    href: 2-dimred.html
+  - text: DA/DS
+    href: 3-differential.html
+  - text: Hepatocytes
+    href: 4-Heps_PKM2.html
+  - text: BMDM
+    href: 5-BMDM_PKM2.html
   right:
   - icon: fa-github
     text: Source code
@@ -17,5 +25,5 @@ output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
+    theme: flatly
     highlight: textmate
