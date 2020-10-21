@@ -122,9 +122,10 @@ plot_grid(
   plotDR(sceB, dr= "TSNE", color_by = "mm"))
 ```
 
-### Target expression in BMDM for Targets that change significantly over time
+### Target expression in BMDM for M1 and M2 targets
+
 ```{r ExprHeatmap_sig_targets}
-plotExprHeatmap(sceB, features = c("PKM2", "CD93", "CD115", "CD49b_DX5", "CD161", "CD80", "I_A_I_E", "CD196", "Arginase_1", "CD64", "CD274", "CD86"),
+plotExprHeatmap(sceB, features = c("PKM2", "CD93", "CD80", "Arginase_1", "CD274", "CD86", "iNOS", "CD1d", "CD40", "CD206"),
     row_anno = FALSE,   # don't annotate samples
     row_clust = FALSE,  # keep samples in original order
     col_clust = TRUE,  # keep markers in original order

@@ -66,6 +66,7 @@ plotMultiHeatmap(sceU,
                  hm2_pal = hcl.colors(10, palette = "Reds", rev = TRUE))
 
 ```
+
 ### Another color combo
 
 ```{r}
@@ -97,6 +98,13 @@ sceH <- runDR(sceH, dr = "TSNE", features = NULL)
 plotDR(sceH, dr = "TSNE", color_by = "PKM2")
 
 ```
+
+
+```{r}
+plotDR(sceH, dr = "TSNE", color_by = "Gata6")
+
+```
+
 ## PKM2 in Hepatocytes split by Condition
 
 ```{r}
